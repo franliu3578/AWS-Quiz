@@ -1,0 +1,788 @@
+[
+    {
+        "question": "一家公司正在开发一个模型，根据各种特征（如尺寸、重量、品牌和制造日期）来预测产品价格。哪种机器学习方法最适合此任务？",
+        "options": [
+            "A. 分类",
+            "B. 回归",
+            "C. 聚类",
+            "D. 维度缩减"
+        ],
+        "answer": "B. 回归",
+        "keywords": ["回归", "连续数值预测"],
+        "explanation": "回归用于预测连续数值，而分类用于预测分类结果；聚类将类似数据点分组，而维度缩减是减少特征数量。"
+    },
+    {
+        "question": "一家公司正在扩大对人工智能的应用，应该优先考虑哪项核心原则，以建立 AI 开发和使用的清晰指导、监督和问责机制？",
+        "options": [
+            "A. 偏见预防",
+            "B. 准确性与可靠性",
+            "C. 数据保护与安全",
+            "D. 治理"
+        ],
+        "answer": "D. 治理",
+        "keywords": ["治理", "监督", "问责机制"],
+        "explanation": "治理涵盖管理 AI 系统的整体框架，包括政策、流程和决策机制。"
+    },
+    {
+        "question": "一家公司开始在 AWS 上使用生成式 AI，为确保负责任的 AI 实践，哪种工具可以为其提供指导和信息？",
+        "options": [
+            "A. AWS 市场",
+            "B. AWS AI 服务卡",
+            "C. SageMaker",
+            "D. Bedrock"
+        ],
+        "answer": "B. AWS AI 服务卡",
+        "keywords": ["生成式 AI", "服务卡", "指导"],
+        "explanation": "AWS AI 服务卡提供有关特定 AWS 服务的详细信息，包括使用案例、限制及负责任的设计考虑。"
+    },
+    {
+        "question": "机器学习中的特征工程的主要目的是什么？",
+        "options": [
+            "A. 确保模型的稳定性能",
+            "B. 评估模型的性能",
+            "C. 收集和预处理数据特征",
+            "D. 转换数据并创建模型所需的变量或特征"
+        ],
+        "answer": "D. 转换数据并创建模型所需的变量或特征",
+        "keywords": ["特征工程", "数据转换", "变量创建"],
+        "explanation": "特征工程的目的是转换数据并为模型创建特征，供模型更好地学习和使用。"
+    },
+    {
+        "question": "一家小公司希望使用机器学习来预测客户流失，但缺乏专门的数据科学团队。哪种 AWS 工具可以帮助他们轻松地构建模型而无需大量编码？",
+        "options": [
+            "A. Amazon SageMaker JumpStart",
+            "B. SageMaker Studio",
+            "C. SageMaker Canvas",
+            "D. SageMaker Pipelines"
+        ],
+        "answer": "C. SageMaker Canvas",
+        "keywords": ["无代码", "客户流失预测", "SageMaker Canvas"],
+        "explanation": "SageMaker Canvas 是一种无代码工具，可以帮助用户轻松构建机器学习模型。"
+    },
+    {
+            "question": "一家金融机构正在开发欺诈检测模型，项目负责人宣布将使用 MLOps。在此项目背景下，如何解释 MLOps？",
+            "options": [
+                "A. 用于可视化机器学习模型性能的工具",
+                "B. 用于管理机器学习系统全生命周期的一组实践",
+                "C. 用于在生产环境中部署和维护机器学习模型的流程",
+                "D. 构建和训练机器学习模型的框架"
+            ],
+            "answer": "B. 用于管理机器学习系统全生命周期的一组实践",
+            "keywords": ["MLOps", "全生命周期", "管理实践"],
+            "explanation": "MLOps 是管理机器学习模型全生命周期的一组实践，涵盖了模型的开发、部署、监控和维护。"
+    },
+    {
+        "question": "哪种 AWS 服务可用于创建基于知识的聊天机器人，能够根据公司内部文件回答有关产品和服务的问题？",
+        "options": [
+            "A. Amazon SageMaker",
+            "B. Amazon Q Business",
+            "C. Amazon Polly",
+            "D. Amazon Rekognition"
+        ],
+        "answer": "B. Amazon Q Business",
+        "keywords": ["AWS 服务", "聊天机器人", "知识库"],
+        "explanation": "Amazon Q Business 允许企业创建智能聊天机器人，并能够基于公司内部文件回答问题。"
+    },
+    {
+        "question": "开发团队需要选择一种服务来存储和查询向量嵌入，哪种 AWS 服务最适合此需求？",
+        "options": [
+            "A. Glue Data Catalog",
+            "B. Amazon S3",
+            "C. Redshift",
+            "D. OpenSearch Service"
+        ],
+        "answer": "D. OpenSearch Service",
+        "keywords": ["向量嵌入", "存储", "查询"],
+        "explanation": "OpenSearch 支持基于向量的存储和查询，是满足此需求的最佳服务。"
+    },
+    {
+        "question": "一家公司希望评估 AWS 服务的安全性和合规性实践，这些服务是供销售 AI 产品的厂商使用的。哪项 AWS 服务可以帮助他们访问 AWS 合规性报告和证书？",
+        "options": [
+            "A. AWS Organizations",
+            "B. Amazon Inspector",
+            "C. AWS CloudTrail",
+            "D. AWS Artifact"
+        ],
+        "answer": "D. AWS Artifact",
+        "keywords": ["安全性", "合规性", "报告和证书"],
+        "explanation": "AWS Artifact 提供集中式的 AWS 合规性报告和证书，适用于此需求。"
+    },
+    {
+        "question": " 一个机器学习模型在训练数据上表现良好，但在新数据上表现不佳，可能的问题是什么？",
+        "options": [
+            "A. 过拟合",
+            "B. 欠拟合",
+            "C. 训练数据不足",
+            "D. 数据质量差"
+        ],
+        "answer": "A. 过拟合",
+        "keywords": ["过拟合", "模型表现", "泛化"],
+        "explanation": "过拟合意味着模型过于复杂，以至于在新数据上无法泛化，导致表现不佳。"
+    },
+    {
+        "question": "一家公司希望通过访问外部信息来提高大型语言模型的响应质量，哪种方法所需的开发工作量最少？",
+        "options": [
+            "A. 小样本学习（Few-shot Learning）",
+            "B. 零样本学习（Zero-shot Learning）",
+            "C. 检索增强生成（RAG）",
+            "D. 微调（Fine-tuning）"
+        ],
+        "answer": "C. 检索增强生成（RAG）",
+        "keywords": ["外部信息", "响应质量", "开发工作量"],
+        "explanation": "检索增强生成（RAG）能够在提示中整合外部信息，减少开发工作量并提高生成结果的准确性。"
+    },
+    {
+        "question": "一个模型已被训练识别手写数字，但准确率不高。专家建议增加 Epoch 值。在机器学习中，Epoch 是什么？",
+        "options": [
+            "A. 测量模型在训练期间的准确性",
+            "B. 模型通过整个训练数据集的一次遍历",
+            "C. 将数据集划分为训练集和测试集的过程",
+            "D. 神经网络中的层数"
+        ],
+        "answer": "B. 模型通过整个训练数据集的一次遍历",
+        "keywords": ["Epoch", "手写数字", "准确率"],
+        "explanation": "Epoch 是指模型完整地遍历一次训练数据集的过程。增加 Epoch 可以提高模型的学习效果。"
+    },
+    {
+        "question": "在机器学习模型中，以下哪一项被认为是超参数？",
+        "options": [
+            "A. 神经网络的权重",
+            "B. 优化算法的学习率",
+            "C. 激活函数的输出",
+            "D. 模型的预测结果"
+        ],
+        "answer": "B. 优化算法的学习率",
+        "keywords": ["机器学习", "超参数", "学习率"],
+        "explanation": "学习率是调整模型在训练过程中步伐大小的超参数。"
+    },
+    {
+        "question": "一个模型在输入稍微改变时，仍然给出非常相似的输出。可以调整哪个推理时间参数以增加创造性？",
+        "options": [
+            "A. 学习率",
+            "B. 批次大小",
+            "C. 温度",
+            "D. Epoch"
+        ],
+        "answer": "C. 温度",
+        "keywords": ["推理时间参数", "创造性"],
+        "explanation": "温度控制生成时的随机性，更高的温度增加随机性和多样性。"
+    },
+    {
+        "question": "您正在评估语言生成模型在文本生成相关任务中的质量。哪个评估指标最能衡量其与人类书写文本的语义相似度？",
+        "options": [
+            "A. BERT Score",
+            "B. BLEU",
+            "C. Perplexity",
+            "D. ROUGE"
+        ],
+        "answer": "A. BERT Score",
+        "keywords": ["语言生成模型", "语义相似度", "评估指标"],
+        "explanation": "BERT Score 使用预训练语言模型计算文本间的语义相似度，是衡量生成文本与参考文本的语义一致性的重要工具。"
+    },
+    {
+        "question": "一名开发人员正在设计 AI 系统，需要一个提供全面工具来分析和解释模型预测的解决方案。哪项 AWS 服务专门用于提高透明度和可解释性？",
+        "options": [
+            "A. SageMaker Clarify",
+            "B. SageMaker Debugger",
+            "C. SageMaker Autopilot",
+            "D. SageMaker Data Wrangler"
+        ],
+        "answer": "A. SageMaker Clarify",
+        "keywords": ["AI 系统", "透明度", "可解释性"],
+        "explanation": "SageMaker Clarify 提供分析模型预测和检测偏见的工具，是提高模型透明度和可解释性的关键服务。"
+    },
+    {
+        "question": "一家公司计划训练并构建自己的基础模型，这种方法与使用预训练基础模型相比有什么潜在缺点？(select two)",
+        "options": [
+            "A. 更复杂的实施过程",
+            "B. 性能降低",
+            "C. 更高的错觉风险",
+            "D. 增加的开发成本"
+        ],
+        "answer": ["A. 更复杂的实施过程","D. 增加的开发成本"],
+        "keywords": ["基础模型", "训练", "构建", "缺点"],
+        "explanation": "训练自己的基础模型通常涉及复杂的实施过程和高昂的开发成本，因此建议根据需求权衡选择。"
+    },
+    {
+        "question": "一家公司希望使用现有的流行预训练 AI 模型生成内容，但没有丰富的 AI 专业知识，且不想自行管理模型。哪种 AWS 服务最适合他们的需求？",
+        "options": [
+            "A. Amazon Textract",
+            "B. Amazon Comprehend",
+            "C. Amazon Bedrock",
+            "D. Amazon SageMaker"
+        ],
+        "answer": "C. Amazon Bedrock",
+        "keywords": ["预训练 AI 模型", "生成内容", "无需管理"],
+        "explanation": "Amazon Bedrock 提供对预训练基础模型的访问，适合无需大量技术知识的用户。"
+    },
+    {
+        "question": "要微调模型以响应某种格式和风格的问题，最适合的训练数据类型是什么？",
+        "options": [
+            "A. 列格式数据集",
+            "B. 卷标数据",
+            "C. 转录日志",
+            "D. 包含提示和回应的文本对"
+        ],
+        "answer": "D. 包含提示和回应的文本对",
+        "keywords": ["微调模型", "训练数据", "格式", "风格"],
+        "explanation": "包含提示和回应的文本对能够有效训练模型以生成符合特定格式和风格的输出。"
+    },
+    {
+        "question": "公司需要记录 Amazon Bedrock 的 API 调用信息以确保合规性，包括 API 调用的详细信息、用户及时间戳。哪项 AWS 服务可以帮助他们完成此操作？",
+        "options": [
+            "A. CloudTrail",
+            "B. CloudWatch",
+            "C. IAM",
+            "D. Security Hub"
+        ],
+        "answer": "A. CloudTrail",
+        "keywords": ["API 调用", "合规性", "记录"],
+        "explanation": "CloudTrail 提供 AWS 服务 API 调用的详细记录，是确保合规性的重要工具。"
+    },
+    {
+        "question": "一个数据科学团队希望提高模型性能，他们想增加训练数据的数量和多样性，并调整算法的学习率。哪组 ML 流程步骤可以满足这些要求？(select two)",
+        "options": [
+            "A. 数据增强",
+            "B. 模型监控",
+            "C. 特征工程",
+            "D. 超参数调整"
+        ],
+        "answer": ["A. 数据增强","D. 超参数调整"],
+        "keywords": ["模型性能", "数据多样性", "学习率"],
+        "explanation": "数据增强增加训练数据的多样性，而超参数调整优化学习率，从而提高模型性能。"
+    },
+    {
+        "question": "一家公司希望确保其 Amazon Bedrock 驱动的应用生成的内容符合道德准则，避免有害或冒犯性内容。哪项 AWS 服务可以帮助他们实现这些安全措施？",
+        "options": [
+            "A. SageMaker",
+            "B. Comprehend",
+            "C. Textract",
+            "D. Bedrock Guardrails"
+        ],
+        "answer": "D. Bedrock Guardrails",
+        "keywords": ["内容生成", "道德准则", "安全措施"],
+        "explanation": "Bedrock Guardrails 通过预防机制确保生成内容符合道德和安全标准。"
+    },
+    {
+        "question": "公司正在 AWS 上使用 Amazon SageMaker 训练机器学习模型，其数据集存储在 S3 中且包含敏感的客户信息。如何确保在训练模型之前移除或匿名化数据中的敏感信息？(select two)",
+        "options": [
+            "A. 使用 S3 加密来保护静态数据",
+            "B. 使用 Amazon Macie 识别数据集中敏感信息",
+            "C. 使用 S3 访问控制限制授权人员访问",
+            "D. 实施数据屏蔽技术来替换敏感信息"
+        ],
+        "answer": ["B. 使用 Amazon Macie 识别数据集中敏感信息","D. 实施数据屏蔽技术来替换敏感信息"],
+        "keywords": ["敏感信息", "数据匿名化", "模型训练"],
+        "explanation": "通过 Amazon Macie 识别敏感信息并使用数据屏蔽技术匿名化，确保客户数据的安全性。"
+    },
+    {
+        "question": "一家公司希望使用生成式 AI 为其产品创建营销标语。为什么公司需要仔细审查所有生成的标语？",
+        "options": [
+            "A. 生成式 AI 可能生成过长且难以记住的标语",
+            "B. 生成式 AI 可能难以捕捉公司的独特品牌形象",
+            "C. 生成式 AI 可能生成不当或误导性的标语",
+            "D. 生成式 AI 可能需要大量训练数据来生成有效的标语"
+        ],
+        "answer": "C. 生成式 AI 可能生成不当或误导性的标语",
+        "keywords": ["生成式 AI", "营销标语", "审查"],
+        "explanation": "生成式 AI 有可能生成带有偏见或误导性的内容，因此需要人工审查以确保适当性和质量。"
+    },
+    {
+        "question": "您的公司正在 EC2 实例上训练机器学习模型，担心模型的安全性并希望识别基础设施中的潜在漏洞。哪项 AWS 服务可以帮助您扫描 EC2 实例的漏洞？",
+        "options": [
+            "A. AWS X-Ray",
+            "B. Amazon CloudWatch",
+            "C. Amazon Inspector",
+            "D. AWS Config"
+        ],
+        "answer": "C. Amazon Inspector",
+        "keywords": ["EC2", "漏洞扫描", "安全性"],
+        "explanation": "Amazon Inspector 是一种安全服务，可帮助识别 EC2 实例中的潜在漏洞。"
+    },
+    {
+        "question": "一个机器学习模型在城市地区的申请人中表现更佳，因为训练数据中有更多来自城市地区的批准样本。这是哪种类型的偏见的例子？",
+        "options": [
+            "A. 抽样偏差",
+            "B. 算法偏差",
+            "C. 观察者偏差",
+            "D. 时间偏差"
+        ],
+        "answer": "A. 抽样偏差",
+        "keywords": ["机器学习模型", "城市地区", "偏见"],
+        "explanation": "抽样偏差发生在训练数据不具备全面代表性时，例如数据集中城市地区的样本过多。"
+    },
+    {
+        "question": "在具有多个用户之间关系的社交网络数据集中，哪种机器学习算法最适合将这些相互关联的关系分类到预定义的类别中？",
+        "options": [
+            "A. 线性回归",
+            "B. 判定树",
+            "C. 图神经网络（Graph Neural Networks）",
+            "D. 逻辑回归"
+        ],
+        "answer": "C. 图神经网络（Graph Neural Networks）",
+        "keywords": ["社交网络", "用户关系", "分类"],
+        "explanation": "图神经网络能够有效处理互相关联的数据并捕捉节点之间的关系，是分析社交网络的最佳算法。"
+    },
+    {
+        "question": "一个机器人被指派要在迷宫中找到目标。哪种机器学习范式最适合训练机器人通过自学和试错找到最佳路径？",
+        "options": [
+            "A. 监督学习",
+            "B. 无监督学习",
+            "C. 随机学习",
+            "D. 强化学习"
+        ],
+        "answer": "D. 强化学习",
+        "keywords": ["机器人", "迷宫", "最佳路径"],
+        "explanation": "强化学习通过奖励和惩罚机制，让机器人在试错过程中逐步找到解决问题的最佳策略。"
+    },
+    {
+        "question": "一位研究人员希望使一个预训练的机器学习模型在新的特定领域任务上表现良好，但只有有限的标记数据。以下哪种方法最有效且最合适？",
+        "options": [
+            "A. 使用额外的未标记数据继续预训练",
+            "B. 使用来自新领域的标记数据进行微调",
+            "C. 使用预训练模型而不做进一步调整",
+            "D. 使用新的标记数据从头开始训练"
+        ],
+        "answer": "B. 使用来自新领域的标记数据进行微调",
+        "keywords": ["预训练模型", "特定领域", "标记数据"],
+        "explanation": "微调能够有效利用预训练模型，适用于数据较少但需要适应新领域任务的情境。"
+    },
+    {
+        "question": "如果您是一家具有不稳定工作负载的小型初创公司，并希望在 Amazon Bedrock 上实验不同的基础模型，哪种计价模式最适合您？",
+        "options": [
+            "A. 按需模式",
+            "B. 预置吞吐量",
+            "C. 模型定制",
+            "D. 自定义合同"
+        ],
+        "answer": "A. 按需模式",
+        "keywords": ["初创公司", "工作负载", "计价模式"],
+        "explanation": "按需模式按使用量计费，适合工作负载不稳定的小型初创公司，避免过高的固定成本。"
+    },
+    {
+        "question": "在自然语言处理的背景下，以下哪项是用于表示单词或子词的基本单位？",
+        "options": [
+            "A. 标记（Token）",
+            "B. 向量嵌入（Vector Embedding）",
+            "C. N-gram",
+            "D. 词汇表"
+        ],
+        "answer": "A. 标记（Token）",
+        "keywords": ["自然语言处理", "单词", "子词", "基本单位"],
+        "explanation": "标记是 NLP 中的基本单位，通常表示单词或子词，用于模型的输入和输出处理。"
+    },
+    {
+        "question": "开发人员正在创建一个预测客户流失的系统。为了确保透明性，他们需要记录有关模型的关键细节。哪项 AWS 工具最适合此任务？",
+        "options": [
+            "A. Amazon SageMaker Clarify",
+            "B. AWS AI 服务卡",
+            "C. SageMaker 模型卡",
+            "D. SageMaker JumpStart"
+        ],
+        "answer": "C. SageMaker 模型卡",
+        "keywords": ["客户流失", "透明性", "模型细节"],
+        "explanation": "SageMaker 模型卡可用于记录和共享模型的关键信息，有助于提升透明性。"
+    },
+    {
+        "question": "工程师正在训练一个机器学习模型，以防止欠拟合或过拟合，应如何对模型进行数据训练？",
+        "options": [
+            "A. 高偏差和高方差",
+            "B. 低偏差和低方差",
+            "C. 高偏差和低方差",
+            "D. 低偏差和高方差"
+        ],
+        "answer": "B. 低偏差和低方差",
+        "keywords": ["欠拟合", "过拟合", "数据训练"],
+        "explanation": "低偏差和低方差表示模型既能够很好地学习训练数据，又能在新数据上表现良好。"
+    },
+    {
+        "question": "您正在为特定领域定制大型语言模型，哪种方法最有效地调整模型的知识和准确性以适应此领域？",
+        "options": [
+            "A. 微调",
+            "B. 少样本学习（Few-shot Learning）",
+            "C. 检索增强生成（RAG）",
+            "D. 零样本学习（Zero-shot Learning）"
+        ],
+        "answer": "A. 微调",
+        "keywords": ["大型语言模型", "领域定制", "调整知识"],
+        "explanation": "微调可以在特定领域数据上进一步训练模型，提高知识的准确性和适应性。"
+    },
+    {
+        "question": "以下哪项是大型语言模型的“幻觉”现象的例子？",
+        "options": [
+            "A. 过拟合",
+            "B. 欠拟合",
+            "C. 生成错误或误导性信息",
+            "D. 偏见"
+        ],
+        "answer": "C. 生成错误或误导性信息",
+        "keywords": ["大型语言模型", "幻觉", "误导性信息"],
+        "explanation": "大型语言模型有时会生成不真实或无意义的内容，这种现象被称为“幻觉”。"
+    },
+    {
+        "question": "由 Amazon 开发并可在 Bedrock 上使用的基础模型是哪一个？",
+        "options": [
+            "A. Amazon Titan",
+            "B. Lex",
+            "C. Polly",
+            "D. Connect"
+        ],
+        "answer": "A. Amazon Titan",
+        "keywords": ["Amazon", "Bedrock", "基础模型"],
+        "explanation": "Amazon Titan 是由 Amazon 开发的基础模型，可在 Bedrock 上使用。"
+    },
+    {
+        "question": "以下哪些算法常用于机器学习中的分类任务？(select two)",
+        "options": [
+            "A. 支持向量机（SVM）",
+            "B. XGBoost",
+            "C. K-Means",
+            "D. Mean Shift"
+        ],
+        "answer": ["A. 支持向量机（SVM）","B. XGBoost"],
+        "keywords": ["机器学习", "分类任务", "算法"],
+        "explanation": "支持向量机和 XGBoost 是常见的分类算法，而 K-Means 和 Mean Shift 是聚类算法。"
+    },
+    {
+        "question": "面对大规模数据集且延迟不是关键因素，哪种 SageMaker 模型推理类型最适合提供成本效益高的预测？",
+        "options": [
+            "A. 实时推理",
+            "B. 批次推理",
+            "C. 按需无服务器推理",
+            "D. 异步推理"
+        ],
+        "answer": "B. 批次推理",
+        "keywords": ["大规模数据集", "延迟", "成本效益"],
+        "explanation": "批次推理适合处理大量数据，同时具有较低的成本，适用于延迟要求不高的场景。"
+    },
+    {
+        "question": "Amazon CodeWhisperer 的主要目的为何？",
+        "options": [
+            "A. 管理 AWS 基础设施",
+            "B. 协助开发人员进行编程任务和查询",
+            "C. 优化数据库性能",
+            "D. 自动化软件测试"
+        ],
+        "answer": "B. 协助开发人员进行编程任务和查询",
+        "keywords": ["Amazon CodeWhisperer", "编程任务", "查询"],
+        "explanation": "Amazon CodeWhisperer 是一种 AI 工具，设计用于帮助开发人员完成编程任务和代码查询。"
+    },
+    {
+        "question": "“请解释为何一个错误的说法是真的，尽管通常被认为是错的。”这种提示攻击属于哪种类型？",
+        "options": [
+            "A. 越狱攻击",
+            "B. 提示中毒",
+            "C. 对抗性提示",
+            "D. 微调"
+        ],
+        "answer": "C. 对抗性提示",
+        "keywords": ["提示攻击", "对抗性提示", "错误说法"],
+        "explanation": "对抗性提示通过利用模型弱点诱导其生成错误或意料外的响应。"
+    },
+    {
+        "question": "您正在构建一个文本摘要工具，哪个评估指标最能衡量其捕捉原文要点的效果？",
+        "options": [
+            "A. BERT Score",
+            "B. ROUGE",
+            "C. 字错误率（WER）",
+            "D. BLEU"
+        ],
+        "answer": "B. ROUGE",
+        "keywords": ["文本摘要", "评估指标", "原文要点"],
+        "explanation": "ROUGE 专为评估文本摘要设计，能够衡量生成摘要与原文的相似程度。"
+    },
+    {
+        "question": "一个生成 AI 的客服代理无法准确辨识客户意图，您可以使用哪种格式的训练数据来提升其性能？",
+        "options": [
+            "A. 客户讯息和客户意图",
+            "B. 客户讯息和代理响应",
+            "C. 客户意图和代理响应",
+            "D. 代理响应和客户意图"
+        ],
+        "answer": "A. 客户讯息和客户意图",
+        "keywords": ["生成 AI", "客服代理", "训练数据"],
+        "explanation": "客户讯息和客户意图的组合能有效训练模型，提升客服代理对客户意图的识别能力。"
+    },
+    {
+        "question": "用户通常如何被收费使用基础模型(select two)？",
+        "options": [
+            "A. 输入的标记数量",
+            "B. 输出的标记数量",
+            "C. 模型架构",
+            "D. 推理延迟"
+        ],
+        "answer": ["A. 输入的标记数量","B. 输出的标记数量"],
+        "keywords": ["基础模型", "收费模式", "标记数量"],
+        "explanation": "基础模型的使用成本通常按输入和输出的标记数量计算。"
+    },
+    {
+        "question": "哪项 AWS AI 服务可以从非结构化文本（例如临床笔记和医疗记录）中提取健康数据？",
+        "options": [
+            "A. Amazon Comprehend Medical",
+            "B. Amazon Transcribe Medical",
+            "C. Amazon HealthLake",
+            "D. Amazon Rekognition"
+        ],
+        "answer": "A. Amazon Comprehend Medical",
+        "keywords": ["非结构化文本", "健康数据", "提取"],
+        "explanation": "Amazon Comprehend Medical 是专为提取医疗文本信息设计的服务，适用于非结构化数据。"
+    },
+    {
+        "question": "哪种类型的机器学习模型专门设计用于生成与现有数据相似的新数据？",
+        "options": [
+            "A. 自编码器（Autoencoder）",
+            "B. 生成对抗网络（GAN）",
+            "C. 判定树",
+            "D. 支持向量机（SVM）"
+        ],
+        "answer": "B. 生成对抗网络（GAN）",
+        "keywords": ["机器学习", "生成新数据", "GAN"],
+        "explanation": "生成对抗网络（GAN）是一种生成模型，能够创建与现有数据分布相似的全新数据。"
+    },
+    {
+        "question": "用户将使用长提示来向大型语言模型提问，选择 LLM 时应考虑哪个关键方面？",
+        "options": [
+            "A. 推理延迟",
+            "B. 最大上下文窗口",
+            "C. 模型大小",
+            "D. 训练数据"
+        ],
+        "answer": "B. 最大上下文窗口",
+        "keywords": ["大型语言模型", "长提示", "上下文窗口"],
+        "explanation": "较大的上下文窗口可以处理更多信息，是应对长提示的关键因素。"
+    },
+    {
+        "question": "Amazon SageMaker Feature Store 的主要用途是什么？",
+        "options": [
+            "A. 自动训练和部署机器学习模型",
+            "B. 存储和管理机器学习工作流的特征",
+            "C. 提供预训练机器学习模型的市场",
+            "D. 优化 SageMaker 训练任务的性能"
+        ],
+        "answer": "B. 存储和管理机器学习工作流的特征",
+        "keywords": ["SageMaker Feature Store", "特征管理", "机器学习"],
+        "explanation": "Feature Store 是 SageMaker 提供的特征管理服务，用于存储和共享机器学习的特征数据。"
+    },
+    {
+        "question": "一家医疗保健机构正在开发一个 AI 驱动的诊断工具，以帮助早期检测罕见疾病。就合规性而言，以下哪项最不相关？",
+        "options": [
+            "A. 确保 AI 系统对某些患者群体不存偏见",
+            "B. 最小化 AI 系统的运营费用",
+            "C. 确保 AI 系统的决策过程透明",
+            "D. 防止 AI 系统被用于未经授权的用途"
+        ],
+        "answer": "B. 最小化 AI 系统的运营费用",
+        "keywords": ["AI 诊断工具", "合规性", "运营费用"],
+        "explanation": "合规性主要关注公平性、透明性和安全性，而运营费用与合规性无直接关系。"
+    },
+    {
+        "question": "您是一家大型企业，拥有大量分散在各内部系统中的非结构化数据，想为员工提供一个强大的搜索工具，以理解自然语言查询并返回准确、相关的结果。哪项 AWS 服务最适合满足此需求？",
+        "options": [
+            "A. Amazon Redshift",
+            "B. Amazon Lex",
+            "C. Amazon Kendra",
+            "D. Amazon DynamoDB"
+        ],
+        "answer": "C. Amazon Kendra",
+        "keywords": ["非结构化数据", "自然语言查询", "搜索工具"],
+        "explanation": "Amazon Kendra 是一种强大的搜索服务，支持自然语言查询并返回相关结果。"
+    },
+    {
+        "question": "一名数据科学家正进行一个项目，该项目需要快速构建原型并使用各种机器学习算法进行实验。哪项 AWS 服务最适合此任务？",
+        "options": [
+            "A. Amazon SageMaker Ground Truth",
+            "B. Amazon EC2",
+            "C. Amazon SageMaker Autopilot",
+            "D. Amazon Bedrock"
+        ],
+        "answer": "C. Amazon SageMaker Autopilot",
+        "keywords": ["快速构建原型", "机器学习算法", "实验"],
+        "explanation": "SageMaker Autopilot 能自动完成模型的构建、训练和部署，适合快速原型开发。"
+    },
+    {
+        "question": "一家大型公司希望为销售经理创建一个应用程序，能够进行推理、执行多步骤任务并从企业数据中提供有见解的回应。哪项 AWS 服务最适合此任务？",
+        "options": [
+            "A. Amazon Lex",
+            "B. SageMaker",
+            "C. Bedrock Knowledge Bases",
+            "D. Bedrock Agents"
+        ],
+        "answer": "D. Bedrock Agents",
+        "keywords": ["应用程序", "推理", "多步骤任务"],
+        "explanation": "Bedrock Agents 支持基于企业数据的多步骤推理任务，是构建智能应用程序的理想选择。"
+    },
+    {
+        "question": "一家公司希望分析客户评论，以识别常见主题和情绪。哪项 AWS 服务可以帮助公司达到此目标？",
+        "options": [
+            "A. Amazon Connect",
+            "B. Amazon Comprehend",
+            "C. Amazon Translate",
+            "D. Amazon Transcribe"
+        ],
+        "answer": "B. Amazon Comprehend",
+        "keywords": ["客户评论", "主题识别", "情绪分析"],
+        "explanation": "Amazon Comprehend 能从文本中提取主题和情绪，是分析客户评论的最佳工具。"
+    },
+    {
+        "question": "一家公司希望将数据从一种格式转换为另一种格式，以便进行机器学习任务。哪项 AWS 服务最适合进行此类数据转换？",
+        "options": [
+            "A. AWS Glue",
+            "B. Amazon Translate",
+            "C. AWS Config",
+            "D. Amazon Kinesis"
+        ],
+        "answer": "A. AWS Glue",
+        "keywords": ["数据格式转换", "机器学习", "ETL"],
+        "explanation": "AWS Glue 是一项完全托管的 ETL 服务，可轻松实现数据格式转换。"
+    },
+    {
+        "question": "一家公司希望为实时推理部署一个训练好的机器学习模型。哪项 AWS 服务最适合此用途？",
+        "options": [
+            "A. Amazon SageMaker JumpStart",
+            "B. Amazon Personalize",
+            "C. Amazon EC2",
+            "D. SageMaker Endpoints"
+        ],
+        "answer": "D. SageMaker Endpoints",
+        "keywords": ["实时推理", "模型部署", "SageMaker"],
+        "explanation": "SageMaker Endpoints 专为实时推理设计，可部署训练好的模型以实时处理预测请求。"
+    },
+    {
+        "question": "一家公司已部署一个用于客户情绪分析的机器学习模型。为了确保模型的准确性和可靠性，应使用哪些 AWS 服务进行监控和人工审查(select two)？",
+        "options": [
+            "A. Amazon Bedrock",
+            "B. SageMaker Model Monitor",
+            "C. SageMaker Ground Truth",
+            "D. Amazon A2I"
+        ],
+        "answer": ["B. SageMaker Model Monitor","D. Amazon A2I"],
+        "keywords": ["情绪分析", "监控", "人工审查"],
+        "explanation": "SageMaker Model Monitor 可持续监控模型性能，而 Amazon A2I 支持在机器学习工作流中引入人工审查。"
+    },
+    {
+        "question": "一位机器学习专家正在 Amazon SageMaker 上对一个大型深度学习模型进行训练，但单个 GPU 无法高效处理此任务。哪个 SageMaker 功能可以帮助优化大模型和大数据集的训练过程？",
+        "options": [
+            "A. 增量训练",
+            "B. 超参数调整",
+            "C. 管道模式（Pipe Mode）",
+            "D. 模型并行"
+        ],
+        "answer": "D. 模型并行",
+        "keywords": ["深度学习", "大模型", "SageMaker"],
+        "explanation": "模型并行将大模型分割到多个 GPU 或实例上处理，优化了大数据集的训练过程。"
+    },
+    {
+        "question": "您正在处理包含大量特征的数据集，为了提升模型性能和计算效率，您需要在不丢失重要信息的情况下简化数据。哪种技术最有效？",
+        "options": [
+            "A. 降维",
+            "B. 特征工程",
+            "C. 数据增强",
+            "D. 数据清理"
+        ],
+        "answer": "A. 降维",
+        "keywords": ["数据特征", "简化数据", "降维"],
+        "explanation": "降维技术通过减少特征数量，同时保留关键信息，从而提升模型性能和效率。"
+    },
+    {
+        "question": "您希望根据文本描述生成高质量的图像，哪种 AI 模型最适合生成任务并能产生高质量、多样化的输出？",
+        "options": [
+            "A. 生成对抗网络（GAN）",
+            "B. 循环神经网络（RNN）",
+            "C. 卷积神经网络（CNN）",
+            "D. 稳定扩散（Stable Diffusion）"
+        ],
+        "answer": "D. 稳定扩散（Stable Diffusion）",
+        "keywords": ["文本描述", "图像生成", "Stable Diffusion"],
+        "explanation": "Stable Diffusion 是一种强大的图像生成模型，可基于文本描述生成高质量、多样化的图像。"
+    },
+    {
+        "question": "一家公司有一个系统可以从产品数据生成向量嵌入，他们希望提高寻找相似产品的速度和准确性。哪项 AWS 服务最适合实现向量搜索以优化系统？(select two plus one)",
+        "options": [
+            "A. OpenSearch Service",
+            "B. Redshift",
+            "C. Neptune",
+            "D. DocumentDB"
+        ],
+        "answer": ["A. OpenSearch Service","C. Neptune","D. DocumentDB"],
+        "keywords": ["向量嵌入", "相似产品", "向量搜索"],
+        "explanation": "OpenSearch Service、Neptune 和 DocumentDB 都支持向量搜索，可优化寻找相似产品的效率。"
+    },
+    {
+        "question": "某银行每天收到大量贷款申请，贷款处理团队手动从这些申请中提取信息，这非常耗时。使用 AI 工具来自动化此过程的哪项 AWS 服务会有帮助？",
+        "options": [
+            "A. Amazon Rekognition",
+            "B. Textract",
+            "C. Translate",
+            "D. Transcribe"
+        ],
+        "answer": "B. Textract",
+        "keywords": ["贷款申请", "信息提取", "自动化"],
+        "explanation": "Textract 可从扫描的文档中提取文本和数据，显著减少手动操作的时间和工作量。"
+    },
+    {
+        "question": "一家医疗公司希望开发一个机器学习模型，用于根据各种健康指标预测患者发展糖尿病的可能性。以下哪项指针最适合评估该模型的性能？(select two)",
+        "options": [
+            "A. 准确率",
+            "B. 精确率",
+            "C. F1 分数",
+            "D. 召回率（灵敏度）",
+            "E. ROC 曲线下面积（AUC）"
+        ],
+    "answer": ["D. 召回率（灵敏度）","E. ROC 曲线下面积（AUC）"],
+        "keywords": ["医疗模型", "性能评估", "糖尿病预测"],
+        "explanation": "召回率和 AUC 适用于评估分类模型的性能，特别是在医疗场景中。"
+    },
+    {
+        "question": "某组织已在大型一般图像数据集上训练了一个深度学习模型，现在他们希望使用该模型来分类医学图像，但数据集较小。哪种机器学习技术最适合这种情境？",
+        "options": [
+            "A. 强化学习",
+            "B. 迁移学习",
+            "C. 监督学习",
+            "D. 无监督学习"
+        ],
+        "answer": "B. 迁移学习",
+        "keywords": ["图像分类", "迁移学习", "小数据集"],
+        "explanation": "迁移学习能够利用已有模型的知识，在新的医学图像分类任务中实现高效学习。"
+    },
+    {
+        "question": "您正在 AWS 上构建一个机器学习模型，并希望安全地与第三方合作伙伴共享该模型。哪项 AWS 服务可用于在您的 VPC 和合作伙伴的 VPC 之间建立私有连接，确保数据不暴露在公网上？",
+        "options": [
+            "A. Direct Connect",
+            "B. PrivateLink",
+            "C. Transit Gateway",
+            "D. VPN"
+        ],
+        "answer": "B. PrivateLink",
+        "keywords": ["VPC", "私有连接", "数据安全"],
+        "explanation": "PrivateLink 支持在 VPC 之间建立安全的私有连接，确保数据隐私。"
+    },
+    {
+        "question": "您正在 AWS SageMaker 上使用敏感的客户数据进行模型训练。根据 AWS 的共享责任模型，以下哪项主要由您负责？",
+        "options": [
+            "A. 确保 SageMaker 基础设施的安全",
+            "B. 保护 SageMaker 实例的操作系统",
+            "C. 确保存储在 S3 中的客户数据的安全",
+            "D. 为 AWS SageMaker 软件打补丁"
+        ],
+        "answer": "C. 确保存储在 S3 中的客户数据的安全",
+        "keywords": ["共享责任模型", "客户数据", "安全性"],
+        "explanation": "根据共享责任模型，AWS 负责基础设施的安全，客户负责保护自己的数据安全。"
+    },
+    {
+        "question": "在实施生成式 AI 安全范围矩阵时，以下哪项因素应用于评估与生成式 AI 项目相关的风险？",
+        "options": [
+            "A. 模型的计算效率",
+            "B. 用于训练模型的数据敏感性",
+            "C. 推理延迟",
+            "D. 模型的参数数量"
+        ],
+        "answer": "B. 用于训练模型的数据敏感性",
+        "keywords": ["生成式 AI", "风险评估", "数据敏感性"],
+        "explanation": "数据敏感性是评估生成式 AI 项目风险的重要因素，直接影响隐私和安全。"
+    }
+]
+
+
+
+
+    
