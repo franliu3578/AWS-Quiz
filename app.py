@@ -71,6 +71,6 @@ if st.sidebar.button("🔄 Reset", key="reset_button"):
 st.sidebar.markdown("---")
 st.sidebar.markdown("#### ⚠️ Disclaimer")
 st.sidebar.markdown("""- 系統為 **個人專案**，僅學習且不涉任何商業用途。
-                        - 參考 **AWS AIF-C01 題庫**。""")
+                        - 參考 ** AIF-C01 題庫**。""")
 st.sidebar.markdown("#### 📢 Notice")
 st.sidebar.markdown("""- 若需使用相關資料，請遵守其知識產權法規。""")
