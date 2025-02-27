@@ -6,7 +6,7 @@ from code.quiz_logic import load_questions
 import os
 
 # 設置頁面配置
-st.set_page_config(page_title="AWS CLF-C02 Quiz",  # 頁面標題
+st.set_page_config(page_title="AWS AIF-C01 Quiz",  # 頁面標題
                     page_icon="🚀",  
                     initial_sidebar_state="expanded" 
 )
@@ -29,7 +29,7 @@ st.markdown("""<style>
 )
 
 # 顯示標題
-st.title("🚀 AWS AIF-C01/CLF-C02 Quiz 🌕")
+st.title("🚀 AWS AIF-C01 Quiz 🌕")
 st.image("banner.png")  # 插入相關圖片或 logo
 st.write("💡Practice for 勞動部 | AI數據應用人才養成班第01期")
 
