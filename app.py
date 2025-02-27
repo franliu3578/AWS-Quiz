@@ -30,7 +30,7 @@ st.markdown("""<style>
 
 # 顯示標題
 st.title("🚀 AWS AIF-C01 Quiz 🌕")
-st.image("banner.png")  # 插入相關圖片或 logo
+# st.image("banner.png")  # 插入相關圖片或 logo
 st.write("💡Practice for 勞動部 | AI數據應用人才養成班第01期")
 
 # 在側邊欄顯示考試範圍
