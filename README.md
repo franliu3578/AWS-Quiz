@@ -1,4 +1,4 @@
-# 🌟 Interactive Quiz App for Python Basics & AWS AIF-C01 🐍🚀
+# 🌟 Interactive Quiz App for AWS AIF-C01 🐍🚀
 
 Welcome to the **Interactive Quiz Application**! Whether you're:
 - 🐍 Strengthen your Python basics with beginner-friendly quizzes.
